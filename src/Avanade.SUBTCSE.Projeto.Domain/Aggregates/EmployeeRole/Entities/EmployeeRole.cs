@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Avanade.SUBTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities
+﻿namespace Avanade.SUBTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities
 {
-    public record EmployeeRole
+    public record EmployeeRole : BaseEntity<string>
     {
 
         public EmployeeRole(string roleName)
@@ -19,8 +13,6 @@ namespace Avanade.SUBTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities
             Id = id;
             RoleName = roleName;
         }
-
-        public string Id { get; init; }
         public string RoleName { get; init; }
     }
 }
