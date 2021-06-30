@@ -1,10 +1,10 @@
-﻿using Avanade.SUBTCSE.Projeto.Application.Dtos;
-using Avanade.SUBTCSE.Projeto.Application.Interfaces;
+﻿using Avanade.SUBTCSE.Projeto.Application.Dtos.EmployeeRole;
+using Avanade.SUBTCSE.Projeto.Application.Interfaces.EmployeeRole;
 using System;
 
 namespace Avanade.SUBTCSE.Projeto.Application.Services.EmployeeRole
 {
-    public class EmployeeRoleAppService : IEmployeeRoleAppService
+    public class EmployeeAppService : IEmployeeRoleAppService
     {
         public void AddEmployeeRole(EmployeeRoleDto employeeRoleDto)
         {
