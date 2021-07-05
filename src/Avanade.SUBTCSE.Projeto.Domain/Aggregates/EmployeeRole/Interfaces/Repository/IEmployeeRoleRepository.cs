@@ -1,7 +1,9 @@
-﻿namespace Avanade.SUBTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Repository
+﻿using Avanade.SUBTCSE.Projeto.Domain.Base.Repository;
+
+namespace Avanade.SUBTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Repository
 {
-    public interface IEmployeeRoleRepository
+    public interface IEmployeeRoleRepository : IBaseRepository<Entities.EmployeeRole, string>
     {
-        void AddEmployeeRole(Entities.EmployeeRole employeeRole);
+
     }
 }
