@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Employee\" />
+    <Folder Include="EmployeeRole\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avanade.SUBTCSE.Projeto.Domain\Avanade.SUBTCSE.Projeto.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
