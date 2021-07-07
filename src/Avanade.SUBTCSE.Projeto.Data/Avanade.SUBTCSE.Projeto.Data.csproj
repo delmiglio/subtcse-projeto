@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Employee\" />
-    <Folder Include="EmployeeRole\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
